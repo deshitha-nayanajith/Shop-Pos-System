@@ -15,6 +15,7 @@ import { SuppliersPage } from './features/suppliers/SuppliersPage';
 import { CashSessionsPage } from './features/expenses/CashSessionsPage';
 import { ReportsPage } from './features/reports/ReportsPage';
 import { SettingsPage } from './features/settings/SettingsPage';
+import { AiAssistantPage } from './features/assistant/AiAssistantPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -88,6 +89,7 @@ export const App: React.FC = () => {
               <Route path="/cash-sessions" element={<CashSessionsPage />} />
               <Route path="/reports" element={<ReportsPage />} />
               <Route path="/settings" element={<SettingsPage />} />
+              <Route path="/assistant" element={<AiAssistantPage />} />
             </Route>
 
             <Route path="*" element={<Navigate to="/pos" replace />} />

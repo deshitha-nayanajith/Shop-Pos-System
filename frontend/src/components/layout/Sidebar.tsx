@@ -18,6 +18,7 @@ export const Sidebar: React.FC = () => {
     { to: '/suppliers', label: t('nav.suppliers'), icon: 'bi-building', role: 'Manager' },
     { to: '/cash-sessions', label: t('nav.cashSessions'), icon: 'bi-cash-coin', role: 'Cashier' },
     { to: '/reports', label: t('nav.reports'), icon: 'bi-graph-up', role: 'Manager' },
+    { to: '/assistant', label: 'AI Assistant', icon: 'bi-stars', role: 'Cashier' },
     { to: '/settings', label: t('nav.settings'), icon: 'bi-sliders', role: 'Admin' },
   ];
 
